@@ -32,7 +32,7 @@ export async function generateMetadata({params}:Props): Promise<Metadata> {
     
   } catch (error) {
     return {
-      title: 'pagona del pokemon',
+      title: 'pagina del pokemon',
       description: 'pqjqfnpfqnqfenpqefnp'
     }
     

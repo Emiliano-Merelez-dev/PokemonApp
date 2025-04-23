@@ -23,13 +23,13 @@ const getPokemons = async(limit = 20, offset= 0 ):Promise<SimplePokemon[]> => {
 
 
 export const metadata = {
- title: '151 pokemons',
+ title: 'pokemons',
  description: 'Pagina de los pokemones',
 };
 
 export default async function PokemonsPage() {
 
-    const pokemons = await getPokemons(151);
+    const pokemons = await getPokemons(500);
 
   return (
     <div className="flex flex-col">

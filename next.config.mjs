@@ -11,6 +11,10 @@ const nextConfig = {
                 hostname: 'raw.githubusercontent.com'
 
             },
+            {
+                protocol: 'https',
+                hostname: 'tse3.mm.bing.net'
+            }
         ],
     },
 };
